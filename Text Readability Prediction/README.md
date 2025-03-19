@@ -40,24 +40,10 @@ Since readability scores are continuous values, regression models are employed:
 - **Handling missing values**: Removing features with minimal impact on readability classification.
 - **Visualizing feature distributions**: Understanding correlations between text features and difficulty scores.
 
-### 🔍 Example EDA Visualizations
-![Dataset Overview](https://github.com/suhasmaddali/Predicting-Readability-of-Texts-Using-Machine-Learning/blob/main/images/Input%20data%20head.jpg)
-
-![Difficulty Score Histogram](https://github.com/suhasmaddali/Predicting-Readability-of-Texts-Using-Machine-Learning/blob/main/images/Target%20output%20histogram%202.jpg)
-
-![Feature Correlation Heatmap](https://github.com/suhasmaddali/Predicting-Readability-of-Texts-Using-Machine-Learning/blob/main/images/heatmap%20correlation.jpg)
-
 ## 📊 Model Performance and Results
 - **Deep Neural Networks (DNNs)** performed best in predicting readability scores.
 - **Gradient Boosting Decision Trees (GBDT)** showed strong predictive capabilities.
 - **TF-IDF Word2Vec embeddings** yielded the best encoding strategy for text representation.
-
-### 📉 Model Comparisons
-![Neural Network Predictions](https://github.com/suhasmaddali/Predicting-Readability-of-Texts-Using-Machine-Learning/blob/main/images/Neural%20network%20predictions.jpg)
-
-![KNN Regression](https://github.com/suhasmaddali/Predicting-Readability-of-Texts-Using-Machine-Learning/blob/main/images/K%20neighbors%20regression%20predictions.jpg)
-
-![Decision Tree Regression](https://github.com/suhasmaddali/Predicting-Readability-of-Texts-Using-Machine-Learning/blob/main/images/Decision%20tree%20regression%20plot.jpg)
 
 ## 🎯 Outcomes
 ✅ **Automated readability classification** to assist educators and librarians.
