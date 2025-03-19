@@ -1,4 +1,4 @@
-# 🏡 Airbnb Home Prices Prediction
+# 🏡 Airbnb House Price Prediction
 
 ## 📌 Introduction
 Airbnb home price prediction is a crucial task in real estate and rental markets. Various factors such as **location, demand, property type, and amenities** influence the rental prices. By leveraging **machine learning**, we aim to create a predictive model to estimate home prices based on key features.
