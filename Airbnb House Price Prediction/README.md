@@ -3,8 +3,6 @@
 ## 📌 Introduction
 Airbnb home price prediction is a crucial task in real estate and rental markets. Various factors such as **location, demand, property type, and amenities** influence the rental prices. By leveraging **machine learning**, we aim to create a predictive model to estimate home prices based on key features.
 
-![Airbnb Homes](https://github.com/suhasmaddali/GIF-files/blob/main/homegif.gif)
-
 ## 📏 Performance Metrics
 Since this is a **regression problem**, we evaluate models using:
 - **[Mean Squared Error (MSE)](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html)**
