@@ -6,7 +6,7 @@
 
 There are different bike companies such as [__Zagster__](https://en.wikipedia.org/wiki/Zagster) and [__Lime Bikes__](https://www.li.me/en-US/home) present all over the __US__ to ensure that people get rides when needed. As a result, there is an increase in demand for these bikes as some people move to these __cost-efficient__ and __environment-friendly__ transport options. As a result of this transition, there is variation in the demand for bikes in different regions. 
 
-<img src = "https://github.com/suhasmaddali/Washington-Bike-Demand-Prediction/blob/main/images/Bike%20Demand%20Prediction%20Image.jpg"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/082bb0b05d7f3b0220ba250f039f4c20353b097e/bike_rentals_readme.jpg"/>
 
 ## Challenges
 
@@ -43,35 +43,35 @@ There are a large number of machine learning models used in the prediction of th
 
 We would be mostly focusing on exploratory data analysis (EDA) to help us get an understanding of the data used. Based on this information, steps could be taken to perform feature engineering and improve model performance. 
  
-<img src = "https://github.com/suhasmaddali/Images/blob/main/Input%20Data.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/Input%20Data.png"/>
 
 After reading the dataset with pandas, we get the following results about the data and the features.
 
-<img src = "https://github.com/suhasmaddali/Images/blob/main/Washin/Data%20Description%20Image.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/Data%20Description%20Image.png"/>
 
 Getting an understanding of the description of features in the dataset and understanding their spread in terms of variance and standard deviation. 
 
-<img src = "https://github.com/suhasmaddali/Images/blob/main/Washin/Countplot%20of%20different%20seasons.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/Countplot%20of%20different%20seasons.png"/>
 
 It could be seen from the data that there is more data from the fall season category as compared to other seasons. But there is a negligible difference based on the count of various seasons.
 
-<img src = "https://github.com/suhasmaddali/Images/blob/main/Washin/Average%20bike%20demand%20in%20various%20seasons.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/Average%20bike%20demand%20in%20various%20seasons.png"/>
 
 Based on the results, it is shown that there is a higher demand for bikes during the fall season as compared to the summer, winter, and spring seasons. Therefore, giving this feature to our ML model would help determine the total demand for bikes based on the season. 
 
-<img src = "https://github.com/suhasmaddali/Images/blob/main/Washin/Average%20demand%20in%20various%20months.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/Average%20demand%20in%20various%20months.png"/>
 
 Based on the average demand for bikes in various months, September had the highest demand followed by June and August. Hence, having information about the month can help determine the demand for bikes. 
 
-<img src = "https://github.com/suhasmaddali/Washington-Bike-Demand-Prediction/blob/main/images/Windspeed%20Distribution.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/Windspeed%20Distribution.png"/>
 
 The recorded data is on a large number of days where there is a lower windspeed. This makes sense as cyclists tend to not ride bikes when there is a high wind speed. 
 
-<img src = "https://github.com/suhasmaddali/Washington-Bike-Demand-Prediction/blob/main/images/Temperature%20Distribution.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/Temperature%20Distribution.png"/>
 
 The temperature distribution highlights that most of the records or bookings are done when there is a moderate temperature. Therefore, our ML model should be able to predict the demand for bikes well during moderate-temperature days.
 
-<img src = "https://github.com/suhasmaddali/Washington-Bike-Demand-Prediction/blob/main/images/Demand%20Hours.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/Demand%20Hours.png"/>
 
 This plot showcases the total demand for bikes during different hours of the day. In general, we tend to see a lot of bookings in the evening at 5:00 PM. This generally indicates that people go home after work from offices and they tend to book bikes during these times. In contrast, we tend to find less demand for bikes during early morning hours for timings from 12:00 AM to 6:00 AM. 
 
@@ -81,23 +81,23 @@ We will now focus our attention on the performance of __various models__ on the 
 
 [__Deep Neural Networks__](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html) - After plotting the distribution of predictions on the test set versus the actual test output values, there is a lot of overlap in the model predictions with the true labels. Hence, deep neural networks are performing well on the test data. Let us also test the results of other models to determine the best model to be deployed to predict bike demand in the future.
 
-<img src = "https://github.com/suhasmaddali/Washington-Bike-Demand-Prediction/blob/main/images/DNN%20Performance.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/DNN%20Performance.png"/>
 
 [__K Nearest Neighbors__](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html) - The plot below shows the performance of K Nearest Neighbors on the test set. There is a lot of scatter between the predictions between the model predictions and the test data. Therefore, we can look for alternate models that can improve performance further. 
 
-<img src = "https://github.com/suhasmaddali/Washington-Bike-Demand-Prediction/blob/main/images/KNN%20Performance.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/KNN%20Performance.png"/>
 
 [__Decision Tree Regressor__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html) - This model also performs well and its performance is comparable to that of deep neural networks. Depending on the device (Server, Mobile, and so on) that we use to deploy, we can switch to various models based on their performance and latency. 
 
-<img src = "https://github.com/suhasmaddali/Washington-Bike-Demand-Prediction/blob/main/images/Decision%20Tree%20Performance.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/Decision%20Tree%20Performance.png"/>
 
 [__Gradient Boosting Regressor__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html) - Gradient boosted decision trees (GBDT) also does a good job in identifying and predicting the demand for bikes during different times of the day. The performance is quite comparable to that of the decision tree regressor as shown in the figure below. 
 
-<img src = "https://github.com/suhasmaddali/Washington-Bike-Demand-Prediction/blob/main/images/GBDT%20Performance.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/GBDT%20Performance.png"/>
 
 [__Linear Regression__](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) - Below is the performance plot of a linear regression model. Since the model is less complex, there is a higher chance that there could be bias in the model. This could be seen as there is not a straight line between the predictions and the true labels. 
 
-<img src = "https://github.com/suhasmaddali/Washington-Bike-Demand-Prediction/blob/main/images/LR%20Performance.png"/>
+<img src = "https://github.com/Sankethprasad09/Images/blob/8b3b84528e2cd149c3c258fae1e42bd1282b2cde/washington_bike_prediction_images/LR%20Performance.png"/>
 
 ## Machine Learning Predictions and Analysis 
 
